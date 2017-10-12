@@ -17,11 +17,11 @@ Simple Example
 
       //Create the front object
       $sellsy = new Teknoo\Sellsy\Sellsy(
-        $transportBridge
-        'User Token'
-        'User Secret'
-        'Consumer Token'
-        'Consumer Secret';
+        $transportBridge,
+        'User Token',
+        'User Secret',
+        'Consumer Token',
+        'Consumer Secret'
      );
         
      //Example of request, follow the API documentation of Sellsy API.
